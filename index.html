@@ -1,104 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
-  <title>Komal's personal site</title>
-</head>
+  <title>CSS-MySite-Komal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  </head>
 
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="IMG_20180612_093434-01.jpeg" alt="my image" height="200px" weight="100px"/></td>
-      <td>
-        <h1> KOMAL MEHROTRA </h1>
-        <p><em>This is my <strong>title</strong> for the website.</em></p>
-        <p> I am an Engineer who is learnign Front End development.
-          I love Tea.</p>
-        </tr>
-  </table>
-  <!--level one heading-->
+  <body>
+    <div class="top-container">
+      <img class="topcloud" src="css_images/cloud.png" alt="clouds">
+      <h1>I'm Komal.</h1>
+      <!--<p class="firstpara">A <span>Des</span>igner</p>-->
+      <h2 class="tagline">A Designer</h2>
+      <img class="bottomcloud" src="css_images/cloud.png" alt="clouds">
+      <img class="mountain" src="css_images/mountains.jpg" alt="mountains">
+    </div>
 
-<hr>
-  <h3>Education Background</h3>
-  <ul>
-    <li>Carmel</li>
-    <li>SRMCEM</li>
-  </ul>
-<hr>
-  <h3>Degrees</h3>
-  <ol>
-    <li>B.Tech: Completed</li>
-    <li>MBA: Ongoing
-      <ul>
-        <li>Hobbies</li>
-        <li>Studies</li>
-      </ul>
-    </li>
-  </ol>
-<hr>
-  <h3>Work Experience</h3>
-  <p>
-    Lead tester from 2013 - 2020
-  </p>
-<table><!--border="1px"-->
-<tr>
-  <td> 2013-2020 </td>
-  <td> Tester  </td>
-</tr>
-<tr>
-  <thead>
-    <tr>
-      <th>Dates</th>
-      <th>Work</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2020</td>
-      <td>Senior Tester</td>
-    </tr>
-  </tbody>
-  <tfoot>  </tfoot>
-</table>
-
-<hr>
-<h3> Skills</h3>
-<table  border="1">
-<tr>
-  <td>
-    <table cellspacing="10">
-  <tr>
-    <td> Scrum </td>
-    <td>⭐⭐⭐⭐</td>
-  </tr>
-    <tr>
-      <td>Agile Methodology</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    </table>
-  </td>
-
-  <td>
-    <table  cellspacing="10">
-  <tr >
-    <td> Painting </td>
-    <td>⭐⭐⭐⭐⭐</td>
-  </tr>
-    <tr>
-      <td> UI/UX </td>
-      <td>⭐⭐</td>
-    </tr>
-    </table>
-  </td>
-</tr>
-
-</table>
-
-
+<div class="middle-container">
+  <div class="profile">
+    <img class="profileimage" src="css_images/IMG_20180612_093434-01.jpeg" alt="my image" height="100px" width="100px" style="border-radius:100%">
+    <h2>Hello.</h2>
+    <p class="intro">Everyone. I hope you are doing great!!!</p>
+  </div>
   <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact</a>
-</body>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="painting" src="https://media.giphy.com/media/LSRQac4aKmgkN5orrL/giphy.gif" alt="painting skills art">
+      <h3>Painting</h3>
+      <p class="skillparaone">I love to paint and draw. I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw.and draw.I love to paint and draw.I love to paint and draw.I love to paint and draw. I love to paint and draw.I love to paint and draw.I love to paint and draw </p>
+    </div>
+    <div class="skill-row">
+      <img class="cooking" src="https://media.giphy.com/media/J1dOhswUr3OyNmHTTE/giphy.gif" alt="cooking skill art">
+      <h3>Cooking</h3>
+      <p class="skillparatwo">I am a foodie and love to cook and try new dishes.I am a foodie and love to cook and try new disheI am a fI am a foodie and love to cook and try new dishes.oodie and love to cook and try new dishes.I am a foodie and love to cook and try new dishes.s.I am a foodie and love to cook and try new dishes.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>You can contact me on the mentioned email address.</h3>
+    <p class="contactmessage">Drop your mesages</p><br><br>
+    <a class="btn" href="mailto:komalmehrotra29@email.com">CONTACT ME</a>
+  </div>
+</div><br>
 
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p class="copyright">© 2018 Komal Mehrotra.</p>
+</div>
+
+  </body>
 </html>
